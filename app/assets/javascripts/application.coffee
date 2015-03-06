@@ -13,5 +13,17 @@
 #= require jquery
 #= require jquery_ujs
 #= require turbolinks
-#= require_tree .
+#= require lodash
 #= require backbone
+#= require experiment
+#= require_self
+#= require_tree ../templates
+#= require_tree .
+#= require_tree ./models
+#= require_tree ./collections
+#= require_tree ./views
+#= require ./routers/experiment_router
+
+$(document).ready ->
+  console.log 'application.coffee init'
+  HCI.init()

@@ -4,5 +4,5 @@
 
 window.HCI =
   init: ->
-    HCI.router = new HCIRouter()
+    HCI.router = new HCI.ExperimentRouter()
     Backbone.history.start()

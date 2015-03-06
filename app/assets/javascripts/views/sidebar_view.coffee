@@ -1,4 +1,4 @@
-class SidebarView extends Backbone.Model
+class HCI.SidebarView extends Backbone.Model
   template: JST['sidebar']
   
   init: ->

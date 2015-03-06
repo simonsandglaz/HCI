@@ -1,4 +1,4 @@
-class PreTestQuestionnaireView extends Backbone.Model
+class HCI.PreTestQuestionnaireView extends Backbone.Model
   template: JST['pre_test_questionnaire']
   
   events:

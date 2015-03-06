@@ -1,4 +1,4 @@
-class StimuliView extends Backbone.View
+class HCI.StimuliView extends Backbone.View
   template: JST['stimuli']
 
   init: ->

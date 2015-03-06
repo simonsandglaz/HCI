@@ -1,4 +1,4 @@
-class PostTestQuestionnaireView extends Backbone.Model
+class HCI.PostTestQuestionnaireView extends Backbone.Model
   template: JST['post_test_questionnaire']
   
   init: ->

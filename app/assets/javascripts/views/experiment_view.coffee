@@ -1,4 +1,4 @@
-class ExperimentView extends Backbone.View
+class HCI.ExperimentView extends Backbone.View
   template: JST['experiment']
   
   init: ->
